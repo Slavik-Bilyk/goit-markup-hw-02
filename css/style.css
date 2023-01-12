@@ -1,0 +1,213 @@
+
+:root {
+  --primary-font-family: "Roboto", sans-serif;
+  --secondary-font-family: "Raleway", sans-serif;
+  --primary-text-color: #212121;
+  --accent-color: #2196F3;
+  --secondary-text-color: #757575;
+  --color-title: #FFFFFF;
+  --background-color: #2F303A;
+  --button-color: #F5F4FA; 
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: var(--primary-font-family);
+}
+
+/* ====HEADER==== */
+
+.header {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav :hover,
+.nav :focus {
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+
+
+.logo > span {
+  color: var(--accent-color);
+}
+
+.header > .logo {
+  color: var(--primary-text-color);
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.contacts-list {
+  color: #757575;
+}
+
+.contacts :hover,
+.contacts :focus {
+  color: var(--accent-color);
+}
+
+
+
+/* ===MAIN-TITLE=== */
+
+.main-title {
+  background-color: var(--background-color);
+  color: var(--color-title);
+  text-align: center;
+}
+
+.main-title > h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+}
+
+.main-title button {
+  background-color: var(--accent-color);
+  color: var(--color-title);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+.current {
+  color: var(--accent-color)
+}
+/* ===ОСОБЛИВОСТІ=== */
+
+.caption .caption-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.caption .caption-list {
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* ===ЧИМ МИ ЗАЙМАЄМОСЬ=== */
+
+.headline {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.user-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.user-item {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+
+.user {
+  background-color: var(--button-color);
+}
+
+/* ===2 СТОРІНКА=== */
+
+.button-items {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: var(--button-color);
+  color: var(--primary-text-color);
+}
+
+.button-items:hover {
+  background-color: var(--accent-color);
+  color: var(--color-title);
+}
+
+.items-list h2 {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+
+.items-list p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color)
+}
+
+.items-list {
+  color: var(--secondary-text-color);
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  font-family: var(--secondary-text-color);
+}
+
+
+/* ===ФУТЕР=== */
+
+.footer {
+  background-color: var(--background-color);
+}
+
+.address a {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--color-title);
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  font-family: var(--secondary-font-family);
+  color: var(--color-title);
+}
